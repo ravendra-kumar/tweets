@@ -1,6 +1,6 @@
-require "tweets/version"
+require "get_user_tweets/version"
 
-module Tweets
+module GetUserTweets
   class TwitterData
     def initialize(consumer_key, consumer_secret, access_token, access_token_secret)
       @consumer_key = consumer_key

@@ -7,10 +7,10 @@ Gem::Specification.new do |spec|
   spec.name          = "tweets"
   spec.version       = Tweets::VERSION
   spec.authors       = ["ravendra kumar"]
-  spec.email         = ["ravendra512@gmail.com"]
+  spec.email         = ["ravendra.kumar@nectechnologies.in"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
+  spec.summary       = %q{User can fetch tweets via twitter handle.}
+  spec.description   = %q{Return Tweets in JSON format}
   spec.homepage      = "TODO: Put your gem's website or public repo URL here."
   spec.license       = "MIT"
 

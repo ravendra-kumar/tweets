@@ -11,8 +11,8 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{User can fetch tweets via twitter handle.}
   spec.description   = %q{Return Tweets in JSON format}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
-  spec.license       = "MIT"
+  spec.homepage = 'https://github.com/ruby/rake'
+  spec.licenses = ['MIT', 'GPL-2.0']
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.

@@ -22,7 +22,23 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Some following steps that you need to follow
+
+1) You need four parameters 
+  a) consumer_key
+  b) consumer_secret
+  c) access_token
+  d) access_token_secret
+  e) Login to your twitter account
+
+  Note* If you have not then follow this link
+
+    https://apps.twitter.com/app/new
+
+2) 
+
+client = GetUserTweets::TwitterData.new('<consumer_key>', '<consumer_secret>', '<access_token>', '<access_token_secret>')
+client.get_tweets("your keyword")
 
 ## Development
 
@@ -32,7 +48,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/tweets. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/ravendra-kumar/get_user_tweetstweets. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 
 ## License

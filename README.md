@@ -37,7 +37,7 @@ Some following steps that you need to follow
 
 2) 
 
-client = GetUserTweets::TwitterData.new('<consumer_key>', '<consumer_secret>', '<access_token>', '<access_token_secret>')
+client = GetUserTweets::TwitterData.new('your_consumer_key', 'your_consumer_secret', 'your_access_token', 'your_access_token_secret')
 client.get_tweets("your keyword")
 
 ## Development
